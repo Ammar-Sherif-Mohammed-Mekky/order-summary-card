@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Red Hat Display', sans-serif;
+    transition: 0.5s;
+}
+
+body{
+    background: hsl(225, 100%, 94%);
+    background-image: url(/images/pattern-background-desktop.svg);
+    background-repeat: no-repeat;
+    background-size:contain;
+}
+
+
+
+
+.all{
+    background: white;
+    margin: auto;
+    margin-top: 100px;
+    /* padding: 30px; */
+    /* border: 1px solid black; */
+    width: 450px;
+    height: 650px;
+    border-radius: 30px;
+    -webkit-box-shadow: 0px 26px 50px -20px rgba(0,0,0,0.43); 
+box-shadow: 0px 26px 50px -20px rgba(0,0,0,0.43);
+}
+
+.all h1{
+    font-weight: 900;
+    padding-left: 25%;
+    padding-top: 30px;
+    color: hsl(223, 47%, 23%);
+}
+
+.main-image img{
+    padding: 0;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    /* width: 100%; */
+}
+
+.disc{
+    color: hsl(224, 23%, 55%);
+    margin-top: 20px;
+    margin-left: 50px;
+    margin-right: 50px;
+    text-align: center;
+}
+
+.plan{
+    /* display: flex; */
+    border-radius: 10px;
+    padding: 20px;
+    background:  hsl(225, 100%, 98%);
+    margin-top: 20px;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+.one{
+    flex-direction: column;
+}
+
+.plan-text{
+    margin-left: 80px;
+    margin-top: -55px;
+    color: hsl(223, 47%, 23%);
+    font-weight: 900;
+    margin-bottom: 0;
+}
+.price{
+    margin-left: 80px;
+    margin-top: -20px;
+    /* margin-bottom: 0; */
+    font-weight: 500;
+    color: hsl(224, 23%, 55%);
+}
+
+.plan a{
+    /* color: hsl(223, 100%, 41%); */
+    font-weight: 700;
+    /* margin-top: -15px; */
+    margin-left: 250px;
+    transition: 0.5s;
+    
+}
+
+.plan a:hover{
+    opacity: 0.7;
+
+    color: hsl(245, 75%, 52%);
+    text-decoration: none;
+}
+
+.button{
+    border-radius: 10px;
+    margin-top: 30px;
+    margin-left: 40px;
+    margin-right: 40px;
+    padding-top: 15px ;
+    padding-bottom:15px ;
+    padding-left: 25%;
+    color: white;
+    /* transition: 0.5s; */
+    /* padding-right: 40px ; */
+    background: hsl(245, 75%, 52%);
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+.button:hover{
+    cursor: pointer;
+    opacity: 0.7;
+}
+
+.cancel{
+    margin: 30px;
+    margin-left: 170px;
+    margin-bottom: 170px;
+    color: hsl(224, 23%, 55%);
+}
+
+.cancel a{
+    text-decoration: none;
+    color: hsl(224, 23%, 55%);
+    font-weight: 700;
+}
+
+.cancel a:hover{
+    color: hsl(223, 47%, 23%);
+}
+
